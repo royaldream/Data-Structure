@@ -146,7 +146,7 @@ struct node *delete_node(struct node *s,int in)
             root=s;
             printf("Enter Your Position Delete Node\n");
             scanf("%d",&index);
-            while(i<index-2 && s!=NULL)
+            while(i<index-3 && s!=NULL)
                         {
                             s=s->next;
                             i++;
@@ -164,7 +164,7 @@ struct node *delete_node(struct node *s,int in)
             root=s;
             printf("\nEnter Your Position Delete Node\n");
             scanf("%d",&index);
-            while(i<=index-1 && s!=NULL)
+            while(i<=index && s!=NULL)
                         {
                             s=s->next;
                             i++;
