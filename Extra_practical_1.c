@@ -17,6 +17,7 @@ void push_revers(char x)
     st.top++;
     st.n[st.top]=x;
 }
+saurabh;
 
 char pop_revers()
 {
